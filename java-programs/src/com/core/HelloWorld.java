@@ -1,6 +1,4 @@
-package com.mypackage;
-
-
+package com.core;
 /*
  * This is a simple Java program.
  */
