@@ -1,7 +1,6 @@
 package com.exception;
 
-//Use the multi-catch feature.  Note: This code requires JDK 7 or
-//later to compiler.
+//Use the multi-catch feature.  Note: This code requires JDK 7 or later to compiler.
 public class MultiCatchDemo {
 	public static void main(String[] args) {
 		int a = 88, b = 0;

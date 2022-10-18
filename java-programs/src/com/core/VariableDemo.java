@@ -1,7 +1,7 @@
 package com.core;
 
 /*   
-This demonstrates a variable.   
+This demonstrates how to declare and initialize a variable.   
 */
 public class VariableDemo {
 	public static void main(String[] args) {

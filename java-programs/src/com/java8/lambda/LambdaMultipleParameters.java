@@ -4,9 +4,22 @@ interface Operable {
 	int operation(int a, int b);
 }
 
+class OperableImp implements Operable {
+
+	@Override
+	public int operation(int a, int b) {
+		// TODO Auto-generated method stub
+		return a+b;
+	}
+	
+}
+
 public class LambdaMultipleParameters {
 
 	public static void main(String[] args) {
+		
+		Operable op = new OperableImp();
+		op.operation(1, 5);
 
 		// without lambda expression
 		Operable withoutLambdaAdd = new Operable() {
