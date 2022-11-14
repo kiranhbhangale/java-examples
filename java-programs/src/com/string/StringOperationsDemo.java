@@ -17,7 +17,7 @@ public class StringOperationsDemo {
 		System.out.println();
 
 		if (str1.equals(str2))
-			System.out.println("str1 equals str2");
+			System.out.println("\nstr1 equals str2");
 		else
 			System.out.println("str1 does not equal str2");
 
