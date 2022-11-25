@@ -43,5 +43,11 @@ public class OverloadDemo {
 
 		resD = ob.ovlDemo(1.1, 2.32);
 		System.out.println("Result of ob.ovlDemo(1.1, 2.2): " + resD);
+		System.out.println();
+
+		System.out.println("Result of ob.ovlDemo(1, 2.2): " + ob.ovlDemo(1, 2.32));
+		System.out.println();
+
+		System.out.println("Result of ob.ovlDemo(1.1, 2): " + ob.ovlDemo(1.1, 2));
 	}
 }
